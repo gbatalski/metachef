@@ -45,7 +45,7 @@ module ClusterChef
     include AttrStruct
     extend  ClusterChef::NodeUtils
 
-    dsl_attr(:component, :kind_of => ClusterChef::Component)
+    # dsl_attr(:component, :kind_of => ClusterChef::Component)
     dsl_attr(:name,      :kind_of => [String, Symbol])
 
     # checks that the aspect is well-formed. returns non-empty array if there is lint.
