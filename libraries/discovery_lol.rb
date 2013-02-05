@@ -1,3 +1,5 @@
+require File.expand_path('metachef.rb', File.dirname(__FILE__))
+
 module ClusterChef
   ::ClusterChef::Discovery.class_eval do
     # --------------------------------------------------------------------------
